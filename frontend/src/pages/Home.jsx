@@ -115,7 +115,7 @@ export default function Home() {
         {error && (
           <div className="mt-4 bg-red-500/10 border border-red-500/30 text-red-400
                           text-sm rounded-lg px-4 py-3">
-            ⚠️ {error}
+             {error}
           </div>
         )}
 
@@ -141,7 +141,7 @@ export default function Home() {
                 className="text-xs bg-zinc-700 hover:bg-zinc-600 text-white
                            px-3 py-1.5 rounded-md transition-colors shrink-0"
               >
-                {copied ? '✅ Copied!' : 'Copy'}
+                {copied ? 'Copied!' : 'Copy'}
               </button>
             </div>
 
@@ -153,7 +153,7 @@ export default function Home() {
             {/* Expiry info */}
             {result.expiresIn && (
               <p className="mt-1 text-xs text-yellow-500/70">
-                ⏱ Expires in {result.expiresIn}
+                Expires in {result.expiresIn}
               </p>
             )}
 
@@ -162,7 +162,7 @@ export default function Home() {
               href={`/dashboard?id=${result.shortId}`}
               className="mt-4 inline-block text-xs text-zinc-400 hover:text-white transition-colors"
             >
-              📊 View Analytics →
+              View Analytics →
             </a>
 
           </div>
