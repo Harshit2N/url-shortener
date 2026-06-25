@@ -1,8 +1,8 @@
 A full-stack URL shortener with real-time click analytics, Redis-based rate limiting, and a one-command Docker setup.
 
 **Live Demo → 
-- **Frontend:**[snipurl.vercel.app](https://url-shortener-one-sand.vercel.app/)**
-- **Backend:** https://url-shortener-backend-rxwu.onrender.com
+- **Frontend:**[snipurl.vercel.app](https://url-shortener-one-sand.vercel.app/)
+- **Backend:** [render.api](https://url-shortener-backend-rxwu.onrender.com)
 
 ---
 
